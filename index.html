@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+	<link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+<!--Hay tres formas de agregar estilos aun documento HTML
+Inline (en linea), se pone la palabra style directamente en la linea a la que le quieres dar estilo. Lo malo es que da preferencia en el formato a los párrafos que tienen style entonces se puede perder el sentido de la información. Y se ve amontonado -->
+
+	<h1> Inline </>
+    <p style="background-color: aqua; "color: blue; font-size: xx-large > Este es un texto de prueba para ver las 3 maneras de agregar estilo</p>
+
+
+    <!--La segunda opción es utilizando la etiqueta < style > antes de la sección que queremos modificar, en el siguiente ejemplo style modifica todo el body-->
+<style> 
+
+body {
+	background-color: rgb(165, 42, 159);
+}
+</style> 
+    <p> Sueles poner Lorem en lo que sienes la información real </p> 
+
+<!--Referencia un documento de estilos externa en el head(buena práctica)-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio repudiandae voluptas amet esse architecto. Excepturi nobis adipisci aliquid architecto vitae eos facere non ipsa quos? Provident modi commodi earum.</p>
+    <br>
+    <hr>
+    <p style="background-color: chartreuse; font-size: 50px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, inventore.</p>
+<style>
+p {font-family: 'Times New Roman', Times, serif; color: green;}
+
+</style>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus dolores animi beatae.</p>
+
+<!--Class y ID
+    Clase es grupo y id es el marcador unico. Un ID se utiliza para seleccionar un solo elemento, mientras que una clase se utiliza para seleccionar más de un elemento.
+    se usan las palabras reservadas class (.)
+    y id (#)
+    tiene que tener la misma sintacción en el css que en el html
+    el ID tiene más jerarquía que la clase
+-->
+
+<div class="nombres">
+    <h2 class:CH35 id="rey"> Rey </h2>
+    <h2 class:CH35 id="uriel"> Uriel </h2> 
+    <h2 class:CH35 id="juan"> Juan </h2> 
+</div>
+
+<h3>Lista del super</h3>
+
+<div class="lista">
+     <ul style="background-color:cornsilk ;"><b>Lista de super</b>
+    <br>
+    <br>
+    <li class="deptos">Fruta</li>
+        <ol>
+            <li id="mzn">Manzana</li>
+            <li>Fresa</li>
+            <li>Aguacate</li>
+        </ol>
+    <li class="deptos">Carnes</li>
+        <ol>
+            <li id="res">Bisteck</li>
+            <li>Pollo</li>
+            <li>Arrachera</li>
+        </ol>
+    <li class="deptos">Lacteos</li>
+        <ol>
+            <li>Leche</li>
+            <li>Yogurth</li>
+            <li>Queso</li>
+        </ol>
+    <li class="deptos">Limpieza</li>
+        <ol>
+            <li>Cloro</li>
+            <li>Lavatrastes</li>
+            <li>Servitoallas</li>
+        </ol>
+    </ol>
+    </ul>
+</div>
+<!--El modelo de caja nos permite establecer el diseño del sitio web, ya que hace que nuestros elementos se presenten en forma rectangular y así poder modificar el aspecto.-->
+
+
+</body>
+</html>

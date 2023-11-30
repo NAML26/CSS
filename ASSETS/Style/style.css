@@ -1,0 +1,54 @@
+p{
+    background-color: blue; 
+
+}   
+
+#rey {
+    color: red; 
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+#uriel {
+    color: violet;
+}
+
+.deptos {
+    background-color: red;
+}
+#res {
+    background-color: green;
+}
+#mzn
+{
+    background-color: salmon    color: blue;
+}
+.nombres
+{
+
+    width: 200;
+    height: 400;
+    margin: 20px 50 px;
+    padding: 20px;
+    border: dotted sandybrown;
+    text-align: center;
+    background-color: lightblue;
+
+}
+.lista
+    {
+     width: 200;
+    height: 100;
+    margin: 20px 50 px;
+    padding: 10px;
+    border: dotted sandybrown;
+    text-align: left;
+    background-color: salmon;
+    }
+
+<!-- p a d d i n g : 2px 5px 2px 5px;
+padding-top: 2px;
+padding-right: 5px;
+padding-bottom: 2px;
+padding-left: 5px;
+padding: 2px 5px;
+top y bottom son de 2 left y :rightson de 5-->
